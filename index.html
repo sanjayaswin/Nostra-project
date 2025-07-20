@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nostra</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+   <style>
+      html {
+         scroll-behavior: smooth;
+      }
+
+      body {
+         font-family: sans-serif;
+      }
+     
+  
+   </style>
+</head>
+
+<body>
+
+   <!--Offer Bar-->
+
+   <div class="offer-bar">
+      <p>Sign Up and <b>GET 20% OFF</b> for your first Order
+         <i id="offer-close" onclick="close" style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i>
+      </p>
+   </div>
+
+
+   <!--navbar-->
+   <section class="navbar">
+      <h1>Nostra</h1>
+      <div class="navbar-signs">
+         <a href="">Home</a>
+         <a href="#new-tag">New Arrival</a>
+         <a href="#most-tag">Most Wanted</a>
+         <a href="collection.html">Collections</a>
+         <a href="contact.html">Contact Us</a>
+
+      </div>
+      
+         <i id="menubar" class="fa-solid fa-bars"></i>
+
+   </section>
+
+
+
+<!-- Side nav with X button -->
+<div id="sidenav"class="sidenav" >
+  <!-- ❌ Close icon at the top -->
+  <i id="closenav" class="fa-solid fa-xmark close-icon"></i>
+
+  <!-- Nav links -->
+   <a href="index.html">Home</a>
+  <a href="#new-arrivals">New Arrival</a>
+  <a href="#wanted">Most Wanted</a>
+  <a href="collection.html">Collections</a>
+  <a href="contact.html">Contact Us</a>
+</div>
+
+
+ <!---sliding pics-->
+   <section class="slide">
+     <div class="slider">
+  <i id="slider-left-activate" class="fa-solid fa-chevron-left"></i>
+  <i id="slider-right-activate" class="fa-solid fa-chevron-right"></i>
+  <div class="slider-image-container">
+    <img src="./slider-one.jpg" />
+    <img src="./slide2.jpg" />
+    <img src="./slider3.jpg" />
+  </div>
+</div>
+      
+      
+      <div class="slide-letters">
+         <h1>Level up your style with our</h1>
+         <p>Summer collections</p>
+         <button>Shop Now <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+
+   </section>
+
+
+   <section>
+      <h1 class="h1">Brands</h1>
+      <div class="brands">
+         <div>
+            <img src="behance.png" alt="" style="width: 40px;">
+            <h1>Puma</h1>
+         </div>
+         <div>
+            <img src="./adidas.png" alt="" style="width: 40px;">
+            <h1>Adidas</h1>
+         </div>
+         <div>
+            <img src="./simple.png" alt="" style="width: 40px;">
+            <h1>Simple</h1>
+         </div>
+         <div>
+            <img src="./leaves.png" alt="" style="width: 40px;">
+            <h1>Leaves</h1>
+         </div>
+         <div>
+            <img src="behance.png" alt="" style="width: 40px;">
+            <h1>Behance</h1>
+         </div>
+         <div>
+            <img src="./twitch.png" alt="" style="width: 40px;">
+            <h1>Twitch</h1>
+         </div>
+         <div>
+            <img src="./leaves.png" alt="" style="width: 40px;">
+            <h1>Leaves</h1>
+         </div>
+      </div>
+   </section>
+
+   <!--cx experienxe-->
+   <div class="cx">
+      <div>
+         <h1>We Provide Best</h1>
+         <h1>Customer Experience</h1>
+      </div>
+      <div>
+         <p>|| We ensure that our customer have the best shopping experience</p>
+      </div>
+   </div>
+   <!--box lorems-->
+   <section class="boxes">
+      <div class="one-box">
+         <i class="fa-regular fa-circle-check" style="color: #01060e;"></i>
+         <h4>Original Products</h4>
+         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+      </div>
+      <div class="one-box">
+         <i class="fa-regular fa-face-smile" style="color: #00040a;"></i>
+         <h4>Satisfaction Guarantee</h4>
+         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+      </div>
+      <div class="one-box">
+         <i class="fa-solid fa-broom" style="color: #000205;"></i>
+         <h4>New Arrival Everyday</h4>
+         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+      </div>
+      <div class="one-box">
+         <i class="fa-solid fa-truck-fast" style="color: #010409;"></i>
+         <h4>Fast & free shipping</h4>
+         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+      </div>
+   </section>
+   <!--arrival section-->
+   <h1 id="new-tag">New Arrivals</h1>
+   <section id="new-arrivals">
+
+
+      <div class="one-arri">
+         <img src="./f1.jpg" alt="">
+         <div class="overlay"></div>
+         <button class="arri-box">Shop Now <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+
+      <div class="one-arri">
+         <img src="./f2.jpg" alt="">
+         <div class="overlay"></div>
+         <button class="arri-box">Shop Now <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+
+      <div class="one-arri">
+         <img src="./f3.jpg" alt="">
+         <div class="overlay"></div>
+         <button class="arri-box">Shop Now <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+
+      <div class="one-arri">
+         <img src="./f4.jpg" alt="">
+         <div class="overlay"></div>
+         <button class="arri-box">Shop Now <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+   </section>
+   <h1 id="most-tag">Most Wanted</h1>
+   <!--most wanted-->
+   <div id="wanted">
+      
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f2.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+            <i class="fa-regular fa-heart heart-icon"></i>
+         </div>
+
+      </section>
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f3.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+            <i class="fa-regular fa-heart heart-icon"></i>
+         </div>
+      </section>
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f4.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f1.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f2.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f2.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f3.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f4.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+      <section class="most">
+         <div class="most-wanted">
+            <img src="f1.jpg" alt="" style="width: 200px;height: 220px;">
+            <button class="sale">Sale</button>
+         </div>
+         <i class="fa-regular fa-heart heart-icon"></i>
+      </section>
+   </div>
+   <!--advertise-->
+   <section class="back">
+      <div class="navy-bg"></div>
+      <img src="./offer.jpg" alt="" width="500px">
+      <div class="back-tags">
+         <h1>Limited Offer</h1>
+         <p>35% OFF on this for the first 30</p>
+         <p class="customer">Customers</p>
+         <button class="back-box">Shop Now <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+   </section>
+
+   <!--text end-->
+   <div class="join">
+      <h1>Join our News Letter</h1>
+   </div>
+   <div class="sign">
+      <p>Signup for our email newspaper to get exclusive discounts, updated, and more</p>
+   </div>
+   <div class="input"><input type="text"></div>
+   <div class="subs"><button>Subscribe <i class="fa-solid fa-arrow-right-long"></i></button></div>
+
+   <section class="end-card">
+      <div class="end"></div>
+      <div class="end-tags">
+         <h1>Nostra</h1>
+         <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those</p>
+         <P>interest</P>
+         <div class="icon">
+            <i class="fa-brands fa-instagram" style="color: #fafafa;"></i>
+            <i class="fa-brands fa-twitter" style="color: #f7f7f7;"></i>
+            <i class="fa-brands fa-facebook" style="color: #f2f2f2;"></i>
+         </div>
+         <p>@ 2023 Nostra.com</p>
+      </div>
+
+   </section>
+
+
+
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
